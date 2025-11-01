@@ -29,7 +29,7 @@ const Home = () => {
     // fetching Products
     const fetchProducts = async () => {
         try {
-            const url = 'http://localhost:8080/products';
+            const url = 'https://deploy-mern-app-api-omega.vercel.app/products';
 
             const headers = {
                 headers: {
