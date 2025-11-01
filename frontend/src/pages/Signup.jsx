@@ -33,7 +33,7 @@ const Signup = () => {
 
         try{
 
-            const url = "https://deploy-mern-app-api-omega.vercel.app/auth/signup";
+            const url = "https://deploy-mern-app-seven.vercel.app/auth/signup";
             const response = await fetch(url, {
                 method:'POST',
                 headers:{
